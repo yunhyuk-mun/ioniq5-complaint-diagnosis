@@ -80,7 +80,7 @@ gi = interp1(ts, sg, r.t); vi = interp1(ts, sv, r.t); ai = interp1(ts, sa, r.t);
 after = r.t >= c.t_brake; after_s = ts >= c.t_brake;
 M = @(gap, v, aa, af) [min(gap(af)), max(0, (c.v_lead_2 - min(v(af))) / (c.v0 - c.v_lead_2) * 100), -min(aa)];
 ms = M(r.gap, r.v, r.a, after); mk = M(sg, sv, sa, after_s);
-res.script = struct('min_gap', ms(1), 'undershoot_pct', ms(2), 'max_decel', ms(3));
+res = struct(); res.script = struct('min_gap', ms(1), 'undershoot_pct', ms(2), 'max_decel', ms(3));
 res.simulink = struct('min_gap', mk(1), 'undershoot_pct', mk(2), 'max_decel', mk(3));
 res.max_abs_gap_diff_m = max(abs(gi - r.gap));
 res.max_abs_speed_diff_kmh = max(abs(vi - r.v)) * 3.6;
