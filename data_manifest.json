@@ -1,0 +1,65 @@
+{
+ "source": "NHTSA public API",
+ "request": {
+  "complaints": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=hyundai&model=ioniq%205&modelYear={year}",
+  "recalls": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=hyundai&model=ioniq%205&modelYear={year}"
+ },
+ "files": [
+  {
+   "file": "ioniq5_complaints_2022.json",
+   "downloaded": "2026-11-16 16:44",
+   "records": 407,
+   "sha256": "8831fd645fe0623c67081cd71f7b7931732a0dc09449a829d331192cb4796a39",
+   "id_list_sha256": "8ea64ad7d8837c434cb0cd34f05e0b4f979ee4109047cf710afb48c0b19bc599"
+  },
+  {
+   "file": "ioniq5_complaints_2023.json",
+   "downloaded": "2026-11-16 16:44",
+   "records": 389,
+   "sha256": "6cfa6e1c44db78e9c3a23054b06da71f68c461729471d86540d6cb9030623507",
+   "id_list_sha256": "dbcadd8509973c82ca6985790dc6ab5509a0b1d344a0cc19e98053a44e4d7f31"
+  },
+  {
+   "file": "ioniq5_complaints_2024.json",
+   "downloaded": "2026-11-16 16:45",
+   "records": 226,
+   "sha256": "59bb708b058527596469ed4d888f99a349e24f5c224d8eb43df9f3f97078151f",
+   "id_list_sha256": "5bb6eb09072ff3c2dbed33ac14be8ea16ce53263a53595c33835aa74951362c6"
+  },
+  {
+   "file": "ioniq5_complaints_2025.json",
+   "downloaded": "2026-11-16 16:45",
+   "records": 303,
+   "sha256": "fe887ad4d187b58a390166837214ff1fbaf56947917fedad10324149dda236e8",
+   "id_list_sha256": "9a7c08fbe22c45056f479194cd0513827da117a862bedb382ca676ff73fdf47f"
+  },
+  {
+   "file": "ioniq5_recalls_2022.json",
+   "downloaded": "2026-11-16 16:44",
+   "records": 3,
+   "sha256": "603cd75bfb3aeb913364e9a4c35db246d895b0ba473a123a46d48b0c92dba9d0",
+   "id_list_sha256": "76a95de597aac90e1d9a70d067343244eaf07fd19ca0d1d90e5568014032b957"
+  },
+  {
+   "file": "ioniq5_recalls_2023.json",
+   "downloaded": "2026-11-16 16:44",
+   "records": 4,
+   "sha256": "c7c7f8a9ecc1401a228b1d25803e3d9fe0e4eba199adc79bfc0f8525e6c99348",
+   "id_list_sha256": "262db74ddc78c6400fa9df194b2f2e5e7678a9bc94b7bb055d6cee966c02c567"
+  },
+  {
+   "file": "ioniq5_recalls_2024.json",
+   "downloaded": "2026-11-16 16:45",
+   "records": 3,
+   "sha256": "dba7084ade79300845b01001bd140c72af5070fc2fddb30a01ca150dfbc1a354",
+   "id_list_sha256": "040e4b1604a5aa6bd787c2d6a453f8e4b8adc02309367ad49b7cdbd6d7be0f33"
+  },
+  {
+   "file": "ioniq5_recalls_2025.json",
+   "downloaded": "2026-11-16 16:45",
+   "records": 9,
+   "sha256": "30e7b501ff8f5792b1e348a1a256b85dd79271cba5599fa1360d40e814fdc274",
+   "id_list_sha256": "a2551459616b86c430273058c579678957e902d02cd715f0b4a302390a4d4dd5"
+  }
+ ]
+}
