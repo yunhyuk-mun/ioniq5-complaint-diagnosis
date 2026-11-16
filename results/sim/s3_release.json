@@ -1,0 +1,183 @@
+{
+  "table": [
+    {
+      "t_release": 10.5,
+      "a_at_release": -1.1791314441602433E-13,
+      "peak_decel": 0.25979564385688242,
+      "peak_jerk": 0.88108583186321665,
+      "speed_drop_kmh": 1.1474330686723249,
+      "gap_handover": 46.86932727135428,
+      "closing_kmh": -1.1474330686723249,
+      "req_decel": 0,
+      "scenario": "A",
+      "ramp_s": 0
+    },
+    {
+      "t_release": 10.5,
+      "a_at_release": -1.1791314441602433E-13,
+      "peak_decel": 0.25781210548112471,
+      "peak_jerk": 0.43084523085157866,
+      "speed_drop_kmh": 0.90987597661026742,
+      "gap_handover": 46.799513078418272,
+      "closing_kmh": -0.90987597661026742,
+      "req_decel": 0,
+      "scenario": "A",
+      "ramp_s": 0.5
+    },
+    {
+      "t_release": 10.5,
+      "a_at_release": -1.1791314441602433E-13,
+      "peak_decel": 0.2487706730095694,
+      "peak_jerk": 0.25372509794474862,
+      "speed_drop_kmh": 0.6836056054861317,
+      "gap_handover": 46.752568242428538,
+      "closing_kmh": -0.6836056054861317,
+      "req_decel": 0,
+      "scenario": "A",
+      "ramp_s": 1
+    },
+    {
+      "t_release": 10.5,
+      "a_at_release": -1.1791314441602433E-13,
+      "peak_decel": 0.15832979286605564,
+      "peak_jerk": 0.13001783893974994,
+      "speed_drop_kmh": 0.36529889905365137,
+      "gap_handover": 46.710478643516581,
+      "closing_kmh": -0.36529889905365137,
+      "req_decel": 0,
+      "scenario": "A",
+      "ramp_s": 2
+    },
+    {
+      "t_release": 10.5,
+      "a_at_release": -1.1791314441602433E-13,
+      "peak_decel": 0.1056665512631223,
+      "peak_jerk": 0.086972651621942954,
+      "speed_drop_kmh": 0.24365747394839446,
+      "gap_handover": 46.695883062304745,
+      "closing_kmh": -0.24365747394839446,
+      "req_decel": 0,
+      "scenario": "A",
+      "ramp_s": 3
+    },
+    {
+      "t_release": 6,
+      "a_at_release": -0.75629685137535929,
+      "peak_decel": 0.75629685137535929,
+      "peak_jerk": 1.6563073024684849,
+      "speed_drop_kmh": 1.9023530511758366,
+      "gap_handover": 38.540791006360223,
+      "closing_kmh": 23.606283460390266,
+      "req_decel": 3.5578271069854712,
+      "scenario": "B",
+      "ramp_s": 0
+    },
+    {
+      "t_release": 6,
+      "a_at_release": -0.75629685137535929,
+      "peak_decel": 0.7604986042128693,
+      "peak_jerk": 0.8699229793811436,
+      "speed_drop_kmh": 2.3949070768352985,
+      "gap_handover": 38.685494394924063,
+      "closing_kmh": 23.113729434730804,
+      "req_decel": 3.532791026620651,
+      "scenario": "B",
+      "ramp_s": 0.5
+    },
+    {
+      "t_release": 6,
+      "a_at_release": -0.75629685137535929,
+      "peak_decel": 0.7632911662024624,
+      "peak_jerk": 0.53224900383639917,
+      "speed_drop_kmh": 2.8666600428927071,
+      "gap_handover": 38.78327718059947,
+      "closing_kmh": 22.641976468673395,
+      "req_decel": 3.5099753305264962,
+      "scenario": "B",
+      "ramp_s": 1
+    },
+    {
+      "t_release": 6,
+      "a_at_release": -0.75629685137535929,
+      "peak_decel": 0.76773501706768421,
+      "peak_jerk": 0.2789412271725078,
+      "speed_drop_kmh": 3.5338581989646345,
+      "gap_handover": 38.871239141329369,
+      "closing_kmh": 21.974778312601469,
+      "req_decel": 3.479275934266552,
+      "scenario": "B",
+      "ramp_s": 2
+    },
+    {
+      "t_release": 6,
+      "a_at_release": -0.75629685137535929,
+      "peak_decel": 0.77115387947347891,
+      "peak_jerk": 0.18620630945914707,
+      "speed_drop_kmh": 3.7890548010996397,
+      "gap_handover": 38.901751830465514,
+      "closing_kmh": 21.719581710466461,
+      "req_decel": 3.4678415157073563,
+      "scenario": "B",
+      "ramp_s": 3
+    }
+  ],
+  "release_after_sweep": [
+    {
+      "t_release": 5.6000000000000005,
+      "a_at_release": -0.56634653578663219,
+      "peak_decel": 0.68205418984142507,
+      "peak_jerk": 0.935230173347168,
+      "speed_drop_kmh": 2.7515476572912081,
+      "gap_handover": 40.970189932443475,
+      "closing_kmh": 19.429383478258629,
+      "req_decel": 3.3554799133176538,
+      "release_after": 0.1,
+      "closing_no_occlusion": 13.874732391150518
+    },
+    {
+      "t_release": 5.75,
+      "a_at_release": -0.675055235561856,
+      "peak_decel": 0.72284966753603541,
+      "peak_jerk": 0.54413926687599257,
+      "speed_drop_kmh": 2.8360204131210196,
+      "gap_handover": 40.1937673696431,
+      "closing_kmh": 20.624989117169612,
+      "req_decel": 3.40831350485218,
+      "release_after": 0.25,
+      "closing_no_occlusion": 14.255093629040354
+    },
+    {
+      "t_release": 6,
+      "a_at_release": -0.75629685137535929,
+      "peak_decel": 0.7632911662024624,
+      "peak_jerk": 0.53224900383639917,
+      "speed_drop_kmh": 2.8666600428927071,
+      "gap_handover": 38.78327718059947,
+      "closing_kmh": 22.641976468673395,
+      "req_decel": 3.5099753305264962,
+      "release_after": 0.5,
+      "closing_no_occlusion": 14.787956961864408
+    },
+    {
+      "t_release": 6.5,
+      "a_at_release": -0.7663615415134446,
+      "peak_decel": 0.7663615415134446,
+      "peak_jerk": 0.48788004036992572,
+      "speed_drop_kmh": 2.7639778989232653,
+      "gap_handover": 35.521630393061116,
+      "closing_kmh": 26.757577859502089,
+      "req_decel": 3.7776169300601596,
+      "release_after": 1,
+      "closing_no_occlusion": 15.55484038240631
+    }
+  ],
+  "reference": {
+    "gap_handover_no_occlusion": 40.127937988232787,
+    "closing_kmh_no_occlusion": 14.787956961864408,
+    "coast_decel_100kmh": 0.26432574955908289
+  },
+  "k1": 0.1,
+  "k2": 0.6,
+  "release_after_s": 0.5,
+  "driver_takeover_s": 1.5
+}
