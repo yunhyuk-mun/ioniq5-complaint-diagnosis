@@ -1,0 +1,85 @@
+{
+ "n": 100,
+ "primary_accuracy": 0.88,
+ "per_category": {
+  "12V 배터리 방전": {
+   "rule": 4,
+   "human": 4,
+   "tp": 4,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "ADAS 오작동": {
+   "rule": 3,
+   "human": 6,
+   "tp": 3,
+   "precision": 1.0,
+   "recall": 0.5
+  },
+  "ICCU 고장": {
+   "rule": 65,
+   "human": 65,
+   "tp": 65,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "경고등만": {
+   "rule": 3,
+   "human": 1,
+   "tp": 0,
+   "precision": 0.0,
+   "recall": 0.0
+  },
+  "기타": {
+   "rule": 15,
+   "human": 6,
+   "tp": 6,
+   "precision": 0.4,
+   "recall": 1.0
+  },
+  "제동": {
+   "rule": 4,
+   "human": 4,
+   "tp": 4,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  "주행 중 출력 저하·정지": {
+   "rule": 4,
+   "human": 11,
+   "tp": 4,
+   "precision": 1.0,
+   "recall": 0.36
+  },
+  "충전 불가": {
+   "rule": 2,
+   "human": 3,
+   "tp": 2,
+   "precision": 1.0,
+   "recall": 0.67
+  }
+ },
+ "iccu_pattern_without_mention": 11,
+ "confusions": [
+  [
+   "기타 -> 주행 중 출력 저하·정지",
+   4
+  ],
+  [
+   "경고등만 -> 주행 중 출력 저하·정지",
+   3
+  ],
+  [
+   "기타 -> ADAS 오작동",
+   3
+  ],
+  [
+   "기타 -> 경고등만",
+   1
+  ],
+  [
+   "기타 -> 충전 불가",
+   1
+  ]
+ ]
+}

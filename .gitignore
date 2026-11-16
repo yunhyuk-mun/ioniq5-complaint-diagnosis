@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+# NHTSA 원본과 본문이 들어간 중간 결과는 올리지 않음 (scripts/fetch_data.py로 다시 받음)
+data/*.json
+results/complaints_labeled.csv
+results/recurrence_candidates.csv
+results/review_sample.csv
+portfolio/
