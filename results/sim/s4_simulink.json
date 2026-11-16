@@ -1,0 +1,16 @@
+{
+  "script": {
+    "min_gap": 29.547978362160052,
+    "undershoot_pct": 0.46073043724231511,
+    "max_decel": 2.8310974660024604
+  },
+  "simulink": {
+    "min_gap": 29.559823436961665,
+    "undershoot_pct": 0.44969521142115104,
+    "max_decel": 2.83380819703751
+  },
+  "max_abs_gap_diff_m": 0.032131971440350071,
+  "max_abs_speed_diff_kmh": 0.027884261206888538,
+  "max_abs_accel_diff": 0.004943169158047489,
+  "solver": "Simulink ode4, 0.01 s / script Euler, 0.01 s"
+}

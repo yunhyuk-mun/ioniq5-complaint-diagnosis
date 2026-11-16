@@ -166,6 +166,11 @@ ICCU 언급 신고 785건 중 리콜, 소프트웨어 업데이트, 교체, 재�
 | 7-1 | 이득 9조합 비교 | 결과를 보기 전에 기준을 정함: 최소 간격 ≥ 최종 목표의 50%, 속도 언더슈트 ≤ 10%, 그중 정착 최단 → k1 0.1, k2 0.6: 정착 7.3 s, 언더슈트 0.5%, 최소 간격 29.5 m. 상대속도 이득이 작으면(k2 0.3) 언더슈트 4.3~10.3%. 적분 간격을 10배 줄여도 지표 차이 2.2% 이하 |
 | 7-2 | 레이더 오차 | 거리 잡음 σ 0 → 1 m에서 정속 추종 중 저크 RMS 0 → 0.87 m/s³. 필터 시정수 0.5 s는 저크를 약 15분의 1로 줄이지만 언더슈트 0.5 → 3.9%, 1.0 s는 12.6%. 측정 지연 0.5 s는 언더슈트 3.4% |
 | 7-3 | 레이더 가림 → 제어 해제 | 아래 |
+| 7-4 | Simulink 블록도로 교차 검증 | 같은 모델을 스크립트와 별도로 Simulink 블록으로 다시 만들어 비교. 최대 차이 간격 0.03 m, 속도 0.03 km/h, 가속도 0.005 m/s², 최소 간격 29.55 대 29.56 m. 적분 방식이 달라도 같은 결과라 스크립트 구현이 식과 맞음을 확인 |
+
+<img src="results/sim/fig7_4_simulink_model.png" width="900" alt="Simulink 블록도">
+
+Simulink 블록도. 왼쪽부터 앞차, 간격·상대속도 측정, 제어기와 가속 한계, 구동 지연, 주행 저항을 넣은 차량 모델 순서이며, 블록도는 `matlab/s4_simulink.m`이 코드로 만듭니다.
 
 <img src="results/sim/fig7_1_gap_response.png" width="900" alt="이득별 간격 제어 응답">
 
@@ -236,10 +241,10 @@ python scripts/adas_candidates.py        # ADAS 후보 추출
 python scripts/adas_labels.py            # ADAS 판정 요약 → results/adas_summary.json
 ```
 
-MATLAB R2024b, Control System Toolbox:
+MATLAB R2024b, Control System Toolbox, Simulink:
 ```bash
 cd matlab
-matlab -batch "s0_vehicle; s1_gap_control; s2_sensor; s3_release"   # → results/sim/ 그림과 JSON
+matlab -batch "s0_vehicle; s1_gap_control; s2_sensor; s3_release; s4_simulink"   # → results/sim/ 그림과 JSON, matlab/acc_model.slx
 ```
 
 | 폴더 | 내용 |
